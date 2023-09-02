@@ -1,0 +1,43 @@
+/* Styling for the Simon Says game container */
+.simon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Styling for the game buttons */
+  .button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #red {
+    background-color: red;
+  }
+  
+  #blue {
+    background-color: blue;
+  }
+  
+  #green {
+    background-color: green;
+  }
+  
+  #yellow {
+    background-color: yellow;
+  }
+  
+  /* Styling for the Start button (you can add more styles) */
+  #start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
